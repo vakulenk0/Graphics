@@ -1,5 +1,7 @@
 import glfw
 from OpenGL.GL import *
+# pip install glfw
+# pip install PyOpenGL PyOpenGL_accelerate
 
 glfw.init()
 window = glfw.create_window(800, 600, "Flag of Surinam", None, None)
